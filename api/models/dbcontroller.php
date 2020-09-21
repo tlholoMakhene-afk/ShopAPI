@@ -2,9 +2,9 @@
 class DBController {
 	private $conn = "";
 	private $host = "localhost";
-	private $user = "delitfwy_dbAdmin";
-	private $password = "TlholoMakhene";
-	private $database = "delitfwy_dbCoffeeShop";
+	private $user = "";
+	private $password = "";
+	private $database = "";
 
 	function __construct() {
 		$conn = $this->connectDB();
